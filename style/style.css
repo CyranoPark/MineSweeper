@@ -1,0 +1,200 @@
+html, body {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  margin-top: 50px;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.headbtn {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+.sel-difficulty {
+  width: 800px;
+}
+
+.headbtn div {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+}
+
+.headbtn button {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.none-display {
+  display: none;
+}
+
+.game-field {
+  padding: 10px;
+  margin: 0 auto;
+  border-top: 4px solid #FFFFFF;
+  border-left: 4px solid #FFFFFF;
+  border-right: 4px solid #808080;
+  border-bottom: 4px solid #808080;
+  background-color: #CCCCCC;
+}
+
+.easy-field {
+  width: 234px;
+  height: 289px;
+}
+
+.normal-field {
+  width: 334px;
+  height: 389px;
+}
+
+.hard-field {
+  width: 434px;
+  height: 489px;
+}
+
+.main-display {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+}
+
+.main-display div {
+  margin: 0 auto;
+  width: 60px;
+  text-align: center;
+}
+
+.main-display img {
+  width: 38px;
+  margin-left: -5px;
+}
+
+.gametime, .mine-count {
+  border-top: 4px solid #808080;
+  border-left: 4px solid #808080;
+  border-right: 4px solid #FFFFFF;
+  border-bottom: 4px solid #FFFFFF;
+}
+
+.startbtn {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-top: 4px solid #FFFFFF;
+  border-left: 4px solid #FFFFFF;
+  border-right: 4px solid #808080;
+  border-bottom: 4px solid #808080;
+  background-color: #CCCCCC;
+  padding-left: -5px;
+}
+
+.mine-field {
+  margin: 10px auto;
+  border-top: 3px solid #808080;
+  border-left: 3px solid #808080;
+  border-right: 3px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+.easy-game {
+  width: 206px;
+  height: 206px;
+}
+
+.normal-game {
+  width: 306px;
+  height: 306px;
+}
+
+.hard-game {
+  width: 406px;
+  height: 406px;
+}
+
+.field-row {
+  height: 20px;
+  display: flex;
+}
+
+.field-col {
+  position: relative;
+  top: -1px;
+  left: -1px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid #FFFFFF;
+  border-left: 3px solid #FFFFFF;
+  border-right: 3px solid #808080;
+  border-bottom: 3px solid #808080;
+}
+
+.field-flat {
+  border: 1px solid #808080;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+}
+
+.none-visible { 
+  visibility: hidden;
+}
+
+.flag {
+  pointer-events: none;
+  background-image: url(https://banner2.kisspng.com/20180630/sx/kisspng-computer-icons-red-flag-clip-art-5b37b1df754f91.7326545715303766714805.jpg);
+  background-size: 30px;
+  background-position: center;
+}
+
+.nearby1 {
+  color: blue;
+}
+
+.nearby2 {
+  color: green;
+}
+
+.nearby3 {
+  color: brown;
+}
+
+.nearby4 {
+  color: purple;
+}
+
+.nearby5 {
+  color: orange;
+}
+
+.nearby6 {
+  color: red;
+}
+
+.nearby7 {
+  color: navy;
+}
+
+.nearby8 {
+  color: white;
+}
