@@ -1,5 +1,5 @@
 ### **지뢰찾기**
-
+https://cyranopark.github.io/MineSweeper/
 > 화면에 보이는 것
   - 스타트 버튼 / 리스타트 버튼
   - 못 찾은 지뢰 수
